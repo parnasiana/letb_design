@@ -1,0 +1,9 @@
+.nav-element{
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
