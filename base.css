@@ -1,9 +1,19 @@
-.nav-element{
+.white {
+    color: rgb(255, 255, 255);
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     font-family: 'Source Code Pro', monospace;
     text-decoration: none;
     padding: 20px;
+    font-size: 14px;
 }
 
-.white {
-    color: rgb(255, 255, 255);
+.nav-element::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
 }
