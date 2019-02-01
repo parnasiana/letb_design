@@ -9,6 +9,11 @@ body {
     margin: 0;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .nav-elements{
     position: absolute;
     top: 2%;

@@ -4,6 +4,7 @@
 
 li a {
     text-decoration: none;
+    display: inline-block;
     color: rgb(255, 255, 255);
     font-family: 'Source Code Pro', monospace;
     text-decoration: none;
@@ -16,4 +17,11 @@ li a {
     display: block;
     width: 0;
     height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: width .3s;
+}
+
+.nav-element:hover::after{
+    width: 100%;
+    transition: width .3s;
 }
