@@ -1,0 +1,27 @@
+.nav-element::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: width .3s;
+}
+
+.nav-element:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.title-section::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: rgb(0,0,0);
+    transition: width .3s;
+}
+
+.title-section:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
