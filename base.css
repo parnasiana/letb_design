@@ -37,7 +37,8 @@ li a {
     position:relative;
     width: 30%;
     margin-left: 10%;
-    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .gallery-item:after {
@@ -72,7 +73,7 @@ li a {
     display: block;
     position: relative;
     max-width: none;
-    width: calc(130% + 20px);
+    width: calc(132% + 20px);
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(-10px,0,0);
