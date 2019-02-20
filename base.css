@@ -16,7 +16,7 @@ li a {
     font-size: 21px;
 }
 
-.title-section-black, .title-section-white, .gallery-title{
+.title-section-black, .title-section-white, .gallery-title, .animate-title{
     font-family: 'Source Code Pro';
 }
 
@@ -142,5 +142,35 @@ li a {
     font-weight: lighter;
     width: 80%;
   }
-  
 
+  .animate-title {
+    font-size: 100px;
+    color:rgb(255, 255, 255);
+    font-weight: 200;
+    transition: 0.5s;
+    margin-top: 400px;
+    line-height: 80px;
+  }
+
+  .animate-title span{
+    position: relative;
+    text-transform: lowercase;
+    display: block;
+  }
+
+  .animate-title span:nth-child(1)::before{
+    content:'';
+    position: absolute;
+    top: calc(50% -15px);
+    right: 0;
+    width: 50%;
+    height: 30px;
+    background: rgb(255, 0, 0);
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: 0.5s;
+  }
+
+  .animate-title:hover span:nth-child(1)::before {
+    transform: scaleX(1);
+  }

@@ -96,6 +96,14 @@ li {
     flex-direction: column;
 }
 
+.animate-approach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    left: 10%;
+}
+
 footer {
     width: 100%;
     height: 300px;
