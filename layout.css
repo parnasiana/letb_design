@@ -48,16 +48,16 @@ li {
 
 .rrss {    
     background-color: rgb(0,0,0);
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     position: fixed;
-    top: 50%;
+    top: 30%;
     right: 0;
 }
 
 .group-rrss{
     width: 50px;
-    height: 150px;
+    height: 300px;
     display: flex;
     flex-direction:column;
     justify-content: space-around;
