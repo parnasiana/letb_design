@@ -16,14 +16,18 @@ li a {
     font-size: 21px;
 }
 
-.title-section, .gallery-title{
+.title-section-black, .title-section-white, .gallery-title{
     font-family: 'Source Code Pro';
 }
 
-.title-section{
+.title-section-black, .title-section-white{
     font-size: 52px;
     border-bottom: 2px;
     font-weight: lighter;
+}
+
+.title-section-white{
+  color: rgb(255, 255, 255);
 }
 
 .gallery-item {
