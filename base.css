@@ -1,15 +1,15 @@
 .white {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 li a {
-    text-decoration: none;
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    font-family: 'Source Code Pro', monospace;
-    text-decoration: none;
-    padding: 20px;
-    font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 14px;
 }
 
 .icon{
@@ -18,10 +18,6 @@ li a {
 
 .title-section, .gallery-title{
     font-family: 'Source Code Pro';
-}
-
-.gallery-title{
-    
 }
 
 .title-section{
@@ -55,9 +51,9 @@ li a {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-  }
+}
   
-  .hovereffect .overlay {
+.hovereffect .overlay {
     width: 100%;
     height: 100%;
     display: flex;
@@ -92,8 +88,18 @@ li a {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
-  
-  .hovereffect h2 {
+
+  .overlay a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    letter-spacing: 8px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     text-transform: uppercase;
     color: #fff;
@@ -104,8 +110,8 @@ li a {
     background-color: transparent;
     font-weight: lighter;
   }
-  
-  .hovereffect h2:after {
+
+  .overlay a:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -119,22 +125,18 @@ li a {
     transform: translate3d(-100%,0,0);
   }
   
-  .hovereffect:hover h2:after {
+  .hovereffect:hover a:after {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
-
-  .overlay a {
-    text-decoration: none;
-    font-size: 21px;
-    letter-spacing: 8px;
-    width: 80%;
-    text-align: center;
     
-  }
-    
-  h2:hover{
+  a:hover{
       opacity: 1;
+  }
+
+ .gallery-title {
+    font-weight: lighter;
+    width: 80%;
   }
   
 
