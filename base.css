@@ -169,8 +169,29 @@ li a {
     transform-origin: right;
     transform: scaleX(0);
     transition: 0.5s;
+    z-index: 1;
   }
 
   .animate-title:hover span:nth-child(1)::before {
     transform: scaleX(1);
   }
+
+  .animate-title span:nth-child(2)::before{
+    content:'';
+    position: absolute;
+    top: calc(50% -15px);
+    left: 0;
+    width: 50%;
+    height: 30px;
+    background: rgb(255, 0, 0);
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: 0.5s;
+    z-index: 1;
+  }
+
+  .animate-title:hover span:nth-child(2)::before {
+    transform: scaleX(1);
+  }
+
+  
