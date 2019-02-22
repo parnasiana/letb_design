@@ -151,5 +151,7 @@ li a {
 .changing-words span{
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+  margin-left: 8px;
+  padding: 0 20px;
 }
   
