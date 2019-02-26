@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    width: 100%;
 }
 
 .top {
@@ -11,7 +12,14 @@ body {
 
 nav {
     display: flex;
+    align-items: center;
     justify-content: flex-end;
+    height: 65px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
 .nav-elements{
@@ -21,6 +29,11 @@ nav {
 
 li {
     display: inline-block;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -99,7 +112,6 @@ li {
 }
 
 .animate-approach{
-    width: 100%;
     position: absolute;
     left:10%;
     margin: 180px;
@@ -125,7 +137,7 @@ li {
     margin-left: 10%;
     margin-top: 35%;
     width: 40%;
-    height: 400px;
+    height: auto;
     background-color: rgb(255,255,255, 0.5);
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 5px 5px rgb(0, 0, 0);
