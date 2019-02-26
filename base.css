@@ -35,8 +35,8 @@ li a {
   width: 35%;
   margin-left: 10%;
   margin-bottom: 50px;
-  border: 2px solid rgb(255, 255, 255);
-  box-shadow: -5px 5px rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: -6px 6px rgb(0, 0, 0);
 }
 
 .hovereffect {
@@ -45,7 +45,7 @@ li a {
   position: relative;
   text-align: center;
   cursor: default;
-  background: rgb(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0, 0.9);
 }
 
 .hovereffect .overlay {
@@ -86,6 +86,7 @@ li a {
   font-size: 24px;
   overflow: hidden;
   background-color: transparent;
+  padding: 20px;
 }
 
 .hovereffect h2:after {
