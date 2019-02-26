@@ -16,7 +16,7 @@ li a {
     font-size: 21px;
 }
 
-.title-section-black, .title-section-white, .gallery-title, .animate-approach{
+.title-section-black, .title-section-white, .gallery-title, .animate-approach, .presentation, .profesional-profile {
     font-family: 'Source Code Pro';
 }
 
@@ -155,4 +155,19 @@ li a {
   font-size: 90px;
   color: rgb(0, 0, 0);
 }
-  
+
+.presentation {
+  font-size: 18px;
+  font-weight: 200;
+  text-align: justify;
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.profesional-profile{
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: justify;
+  padding: 20px 20px;
+  margin: 0;
+}
