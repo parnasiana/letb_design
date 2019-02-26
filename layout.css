@@ -147,6 +147,36 @@ li {
     width: 100%;
     height: 700px;
     background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+
+}
+
+.work-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.work-list{
+    margin-left: 10%;
+    margin-top: 15%;
+    width: 40%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px rgb(255, 255, 255);
+}
+
+.btns-contact {
+    margin-left: 10%;
+    margin-top: 15%;
+    width: 40%;
+    height: auto;
+}
+
+.btn-to {
 
 }
 

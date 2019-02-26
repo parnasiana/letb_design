@@ -16,7 +16,7 @@ li a {
     font-size: 21px;
 }
 
-.title-section-black, .title-section-white, .gallery-title, .animate-approach, .presentation, .profesional-profile {
+.title-section-black, .title-section-white, .gallery-title, .animate-approach, .presentation, .profesional-profile, .work-list {
     font-family: 'Source Code Pro';
 }
 
@@ -128,17 +128,18 @@ li a {
   opacity: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .overlay:hover{
   opacity: 1;
 }
 
- .gallery-title {
-    font-weight: lighter;
-    width: 80%;
-    margin: auto;
-  }
+.gallery-title {
+  font-weight: lighter;
+  width: 80%;
+  margin: auto;
+}
 
 .changing-words span{
   background-color: rgb(0, 0, 0);
@@ -167,4 +168,9 @@ li a {
   text-align: justify;
   padding: 20px 20px;
   margin: 0;
+}
+
+.work-list ul{
+  color: rgb(255, 255, 255);
+  padding: 0 30px;
 }
