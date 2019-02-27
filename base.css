@@ -17,7 +17,7 @@ li a {
 }
 
 .title-section-black, .title-section-white, .gallery-title, .animate-approach, .presentation, .profesional-profile, .work-list, .btn-to span,
-.firm {
+.firm, .tip {
     font-family: 'Source Code Pro';
 }
 
@@ -188,16 +188,21 @@ li a {
   text-decoration: none;
 }
 
-.firm{
+.firm, .tip{
   font-size: 12px;
 }
 
 .tip {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .expertice {
   background-color: rgb(0, 0, 0);
   color: rgb(27, 145, 255);
   width: fit-content;
+}
+
+.license-group a{
+  text-decoration: none;
 }
