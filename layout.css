@@ -3,33 +3,35 @@ body {
     width: 100%;
 }
 
+header{
+    padding: 30px 30px;
+    position: relative;
+    background: grey;
+}
+
+header::after {
+    content:'';
+    clear: both;
+    display: block;
+}
+
+.site-nav{
+    
+    position: absolute;
+    background: red;
+}
+
+.site-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .top {
     width: 100%;
     height: 1000px;
     background-color: rgb(0, 0, 0);
     margin: 0;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 60px;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    position: relative;
-    z-index: 1;
-    top: 0;
-}
-
-.nav-elements{
-    position: absolute;
-    top: 2%;
-    background-color: red;
-}
-
-li {
-    display: inline-block;
 }
 
 #wrapper {
@@ -227,6 +229,7 @@ footer {
     flex-direction: column;
     margin-top:70px;
 }
+
 
 /* phone verticall*/
 @media (max-width:400px){
