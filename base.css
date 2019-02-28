@@ -26,19 +26,20 @@ li a {
 }
 
 .title-section-black, .title-section-white, .gallery-title, .animate-approach, .presentation, .profesional-profile, .work-list, .btn-to span,
-.firm, .tip, .msg {
+.firm, .tip, .msg, .title-section-mix {
     font-family: 'Source Code Pro';
 }
 
-.title-section-black, .title-section-white{
+.title-section-black, .title-section-white, .title-section-mix{
     font-size: 40px;
     border-bottom: 2px;
     font-weight: lighter;
 }
 
-.title-section-white{
+.title-section-white, .title-section-mix{
   color: rgb(255, 255, 255);
 }
+
 
 .gallery-item{
   position:relative;
@@ -154,19 +155,20 @@ li a {
 }
 
 .changing-words span{
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 40px;
   padding: 0 20px;
 }
 
 .design {
   font-size: 52px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .presentation {
-  font-size: 18px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
   font-weight: 200;
   text-align: justify;
   padding: 20px 20px;
@@ -174,7 +176,8 @@ li a {
 }
 
 .profesional-profile{
-  font-size: 13px;
+  font-size: 10px;
+  color: rgb(255, 255, 255);
   font-weight: lighter;
   text-align: justify;
   padding: 20px 20px;
@@ -221,7 +224,7 @@ li a {
     color: rgb(255, 255, 255);
   }
 
-  .title-section-black, .title-section-white{
+  .title-section-black, .title-section-white, .title-section-mix{
     font-size: 52px;
     border-bottom: 2px;
     font-weight: lighter;
@@ -251,5 +254,25 @@ li a {
   font-size: 75px;
   margin-left: 8px;
   padding: 0 20px;
+}
+
+.title-section-mix{
+  color: rgb(0, 0, 0);
+}
+
+.presentation {
+  font-size: 18px;
+  font-weight: 200;
+  text-align: justify;
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.profesional-profile{
+  font-size: 13px;
+  font-weight: lighter;
+  text-align: justify;
+  padding: 20px 20px;
+  margin: 0;
 }
 }
