@@ -94,7 +94,7 @@ header::after {
 }
 
 .open .hamburguer::before{
-    transform:  rotate(-90deg);
+    transform: rotate(-90deg);
 }
 
 .top {
@@ -307,4 +307,29 @@ nav {
     height: 40px;
 }
 
+}
+
+/* menu responsive */
+@media (min-width:700px){
+    .menu-toggle {
+        display: none;
+    }
+
+    .site-nav {
+        height: auto;
+        position: relative;
+        background: transparent;
+        float: right;
+    }
+
+    .site-nav li {
+        display: inline-block;
+        border: none;
+    }
+
+    .site-nav a:hover,
+    .site-nav a:focus {
+        background: transparent;
+        color: white;
+    }
 }
