@@ -1,10 +1,5 @@
 .nav-element::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background-color: rgb(255, 255, 255);
-    transition: width .3s;
+    display: none;
 }
 
 .nav-element:hover::after{
@@ -111,4 +106,18 @@
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+/* menu responsive */
+@media (min-width:700px){
+
+.nav-element::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: width .3s;
+}
+
 }
