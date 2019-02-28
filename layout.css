@@ -16,15 +16,66 @@ header::after {
 }
 
 .site-nav{
-    
+    top: 100%;
+    right: 0%;;
     position: absolute;
-    background: red;
+    background: rgb(0, 0, 0);
 }
 
 .site-nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.site-nav li {
+    border-bottom: 1px solid white;
+}
+
+.site-nav li:last-child {
+    border-bottom: none;
+}
+
+.site-nav a {
+    display: block;
+    padding: 20px 20px;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    background: grey;
+    color: black;
+}
+
+.nav-elements {
+    text-align: center;
+}
+
+.menu-toggle {
+    padding: 1em;
+    position: absolute;
+    top: 1em;
+    right: 0.5em;
+    cursor: pointer;
+}
+
+.hamburguer,
+.hamburguer::after,
+.hamburguer::before {
+    content:'';
+    display: block;
+    background:rgb(255, 255, 255);
+    height: 3px;
+    width: 22px;
+    border-radius: 3px;
+}
+
+.hamburguer::after {
+    transform: translateY(-12px);
+}
+
+.hamburguer::before {
+    transform: translateY(8px);
 }
 
 .top {
