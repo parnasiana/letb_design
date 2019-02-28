@@ -1,5 +1,5 @@
 .white {
-  color: rgb(140, 140, 140);
+  color: rgb(255, 255, 255);
 }
 
 li a {
@@ -16,8 +16,17 @@ li a {
     font-size: 21px;
 }
 
+.msg {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 14px;
+  width: fit-content;
+  margin: 30px auto;
+}
+
 .title-section-black, .title-section-white, .gallery-title, .animate-approach, .presentation, .profesional-profile, .work-list, .btn-to span,
-.firm, .tip {
+.firm, .tip, .msg {
     font-family: 'Source Code Pro';
 }
 
@@ -33,8 +42,8 @@ li a {
 
 .gallery-item{
   position:relative;
-  width: 35%;
-  margin-left: 10%;
+  width: 80%;
+  margin: auto;
   margin-bottom: 50px;
   border: 2px solid rgb(0, 0, 0);
   box-shadow: -6px 6px rgb(0, 0, 0);
@@ -217,4 +226,13 @@ li a {
     font-size: 52px;
     border-bottom: 2px;
     font-weight: lighter;
+}
+
+.gallery-item{
+  position:relative;
+  width: 35%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: -6px 6px rgb(0, 0, 0);
 }
