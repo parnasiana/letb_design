@@ -22,7 +22,7 @@ li a {
 }
 
 .title-section-black, .title-section-white{
-    font-size: 52px;
+    font-size: 40px;
     border-bottom: 2px;
     font-weight: lighter;
 }
@@ -212,3 +212,9 @@ li a {
   .white {
     color: rgb(255, 255, 255);
   }
+
+  .title-section-black, .title-section-white{
+    font-size: 52px;
+    border-bottom: 2px;
+    font-weight: lighter;
+}

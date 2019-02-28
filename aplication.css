@@ -11,7 +11,7 @@
     content: '';
     display: block;
     width: 0;
-    height: 4px;
+    height: 3px;
     background-color: rgb(0,0,0);
     transition: width .3s;
 }
@@ -25,7 +25,7 @@
     content: '';
     display: block;
     width: 0;
-    height: 4px;
+    height:3px;
     background-color: rgb(255,255,255);
     transition: width .3s;
 }
@@ -119,5 +119,24 @@
     background-color: rgb(255, 255, 255);
     transition: width .3s;
 }
+
+.title-section-black::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: rgb(0,0,0);
+    transition: width .3s;
+}
+
+.title-section-white::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: rgb(255,255,255);
+    transition: width .3s;
+}
+
 
 }

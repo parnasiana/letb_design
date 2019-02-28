@@ -163,7 +163,7 @@ header::after {
 
 .title-section-black, .title-section-white{
     position: absolute;
-    margin-left: 10%;
+    margin-left: 6%;
 }
 
 .gallery-wrapper{
@@ -382,6 +382,11 @@ footer {
         flex-direction:column;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .title-section-black, .title-section-white{
+        position: absolute;
+        margin-left: 10%;
     }
     
 }
