@@ -1,5 +1,5 @@
 .white {
-  color: rgb(255, 255, 255);
+  color: rgb(140, 140, 140);
 }
 
 li a {
@@ -206,3 +206,9 @@ li a {
 .license-group a{
   text-decoration: none;
 }
+
+/* responsive */
+@media (min-width:700px){
+  .white {
+    color: rgb(255, 255, 255);
+  }
