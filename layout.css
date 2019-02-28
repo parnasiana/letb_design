@@ -6,7 +6,7 @@ body {
 header{
     padding: 30px 30px;
     position: relative;
-    background: grey;
+    background: rgb(0, 0, 0);
 }
 
 header::after {
@@ -20,6 +20,8 @@ header::after {
     right: 0%;;
     position: absolute;
     background: rgb(0, 0, 0);
+    height: 0;
+    overflow: hidden;
 }
 
 .site-nav ul{
@@ -45,6 +47,10 @@ header::after {
 .site-nav a:focus {
     background: grey;
     color: black;
+}
+
+.site-nav--open {
+    height: auto;
 }
 
 .nav-elements {
