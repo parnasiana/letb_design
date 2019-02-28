@@ -133,14 +133,14 @@ header::after {
 
 .rrss {    
     background-color: rgb(0, 0, 0);
-    border:2px solid rgb(140, 140, 140);
+    border:2px solid rgb(180, 180, 180);
     position: relative;
     top: 80%;
     width: 300px;
     display: flex;
     justify-content: center;
     margin-left: 6%;
-    box-shadow: -4px -4px rgb(140, 140, 140);
+    box-shadow: -4px -4px rgb(180, 180, 180);
 }
 
 .group-rrss{
@@ -384,25 +384,4 @@ footer {
         align-items: center;
     }
     
-   /* .rrss {    
-        background-color: rgb(0, 0, 0);
-        border:2px solid rgb(140, 140, 140);
-        position: relative;
-        top: 80%;
-        width: 300px;
-        display: flex;
-        justify-content: center;
-        margin-left: 6%;
-        box-shadow: -4px -4px rgb(140, 140, 140);
-    }
-    
-    .group-rrss{
-        width: 95%;
-        height: 50px;
-        display: flex;
-        flex-direction:row;
-        justify-content: space-around;
-        align-items: center;
-    }*/
-
 }
