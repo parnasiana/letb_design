@@ -74,6 +74,7 @@ header::after {
     height: 3px;
     width: 22px;
     border-radius: 3px;
+    transition: all ease-in-out 500ms;
 }
 
 .hamburguer::after {
@@ -82,6 +83,18 @@ header::after {
 
 .hamburguer::before {
     transform: translateY(8px);
+}
+
+.open .hamburguer {
+    transform: rotate(45deg);
+}
+
+.open .hamburguer::after{
+    opacity: 0;
+}
+
+.open .hamburguer::before{
+    transform:  rotate(-90deg);
 }
 
 .top {
