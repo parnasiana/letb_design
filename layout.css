@@ -235,18 +235,23 @@ header::after {
 
 .work-about {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
+.box-list{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    margin: 150px auto;
+    width: 80%;
+}
+
 .work-list{
-    margin-left: 10%;
-    margin-top: 15%;
+    display: block;
+    margin-left: 60px;
     width: auto;
-    height: auto;
-    background-color: rgb(0, 0, 0);
-    border: 2px solid rgb(255, 255, 255);
-    box-shadow: 5px 5px rgb(255, 255, 255);
+    height: auto;    
     padding: 20px 0;
 }
 
@@ -447,5 +452,29 @@ footer {
     left: 10%;
 }
 
+.work-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-list{
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px rgb(255, 255, 255);
+    margin: 150px auto 0 auto;
+}
+
+.work-list{
+    display: block;
+    margin-left: 10%;   
+    padding: 0;
+    width: auto;
+    height: auto;
+    display: list-item;
+    list-style: square;
+}
     
 }
