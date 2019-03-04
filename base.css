@@ -206,7 +206,7 @@ li a {
 }
 
 .firm, .tip{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .tip {
@@ -215,9 +215,8 @@ li a {
 }
 
 .expertice {
-  background-color: rgb(0, 0, 0);
+  background-color: transparent;
   color: rgb(27, 145, 255);
-  width: fit-content;
 }
 
 .license-group a{
@@ -310,5 +309,12 @@ li a {
   font-size: 21px;
   color: rgb(70, 70, 70);
 }
+
+.expertice {
+  background-color: rgb(0, 0, 0);
+  color: rgb(27, 145, 255);
+  width: fit-content;
+}
+
 
 }
