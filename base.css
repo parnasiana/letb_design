@@ -23,6 +23,7 @@ li a {
   font-size: 14px;
   width: fit-content;
   margin: 30px auto;
+  text-align: center;
 }
 
 .title-section-black, .title-section-white, .gallery-title, .animate-approach, .presentation, .profesional-profile, .work-list, .btn-to span,
@@ -36,10 +37,13 @@ li a {
     font-weight: lighter;
 }
 
-.title-section-white, .title-section-mix{
+.title-section-mix{
   color: rgb(255, 255, 255);
 }
 
+.title-section-white {
+  color: rgb(0, 0, 0);
+}
 
 .gallery-item{
   position:relative;
@@ -230,6 +234,17 @@ li a {
     font-weight: lighter;
 }
 
+.msg {
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 21px;
+  width: 500px;
+  margin: 30px auto 30px 10%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
 .gallery-item{
   position:relative;
   width: 35%;
@@ -262,6 +277,7 @@ li a {
 
 .presentation {
   font-size: 18px;
+  color: rgb(0, 0, 0);
   font-weight: 200;
   text-align: justify;
   padding: 20px 20px;
@@ -270,9 +286,15 @@ li a {
 
 .profesional-profile{
   font-size: 13px;
+  color: rgb(0, 0, 0);
   font-weight: lighter;
   text-align: justify;
   padding: 20px 20px;
   margin: 0;
 }
+
+.title-section-white {
+  color: rgb(255, 255, 255);
+}
+
 }

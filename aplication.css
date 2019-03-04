@@ -7,7 +7,7 @@
     transition: width .3s;
 }
 
-.title-section-black::after{
+.title-section-white::after, .title-section-black::after{
     content: '';
     display: block;
     width: 0;
@@ -21,7 +21,7 @@
     transition: width .3s;
 }
 
-.title-section-white::after, .title-section-mix::after{
+.title-section-mix::after{
     content: '';
     display: block;
     width: 0;
