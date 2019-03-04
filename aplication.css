@@ -16,12 +16,13 @@
     transition: width .3s;
 }
 
-.title-section-black:hover::after, .title-section-white:hover::after, .title-section-mix:hover::after{
+.title-section-black:hover::after, .title-section-white:hover::after, .title-section-mix:hover::after, 
+.title-section-wwhite:hover::after{
     width: 100%;
     transition: width .3s;
 }
 
-.title-section-mix::after{
+.title-section-mix::after, .title-section-wwhite::after{
     content: '';
     display: block;
     width: 0;
@@ -129,7 +130,7 @@
     transition: width .3s;
 }
 
-.title-section-white::after{
+.title-section-white::after, .title-section-wwhite::after{
     content: '';
     display: block;
     width: 0;

@@ -27,17 +27,17 @@ li a {
 }
 
 .title-section-black, .title-section-white, .gallery-title, .animate-approach, .presentation, .profesional-profile, .work-list, .btn-to span,
-.firm, .tip, .msg, .title-section-mix {
+.firm, .tip, .msg, .title-section-mix, .title-section-wwhite {
     font-family: 'Source Code Pro';
 }
 
-.title-section-black, .title-section-white, .title-section-mix{
+.title-section-black, .title-section-white, .title-section-mix, .title-section-wwhite{
     font-size: 40px;
     border-bottom: 2px;
     font-weight: lighter;
 }
 
-.title-section-mix{
+.title-section-mix, .title-section-wwhite{
   color: rgb(255, 255, 255);
 }
 
@@ -229,7 +229,7 @@ li a {
     color: rgb(255, 255, 255);
   }
 
-  .title-section-black, .title-section-white, .title-section-mix{
+  .title-section-black, .title-section-white, .title-section-mix, .title-section-wwhite{
     font-size: 52px;
     border-bottom: 2px;
     font-weight: lighter;
@@ -294,7 +294,7 @@ li a {
   margin: 0;
 }
 
-.title-section-white {
+.title-section-white, .title-section-wwhite {
   color: rgb(255, 255, 255);
 }
 
