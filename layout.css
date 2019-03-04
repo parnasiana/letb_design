@@ -275,6 +275,14 @@ header::after {
     margin-bottom: 30px;
 }
 
+.desk {
+    display: none;
+}
+
+.cell {
+    display: flex;
+}
+
 footer {
     width: 100%;
     height: 150px;
@@ -495,6 +503,14 @@ footer {
     align-items: center;
     border: 2px solid rgb(70, 70, 70);
     box-shadow: 5px 5px rgb(70, 70, 70);
+}
+
+.desk {
+    display: flex;
+}
+
+.cell {
+    display: none;
 }
     
 }
