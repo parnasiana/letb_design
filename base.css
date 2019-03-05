@@ -6,11 +6,10 @@ body{
   color: rgb(255, 255, 255);
 }
 
-li a {
+.nav-element {
   text-decoration: none;
   display: inline-block;
   color: rgb(255, 255, 255);
-  font-family: 'Source Code Pro', monospace;
   text-decoration: none;
   padding: 20px;
   font-size: 14px;
@@ -188,7 +187,7 @@ li a {
   margin: 0;
 }
 
-.work-list ul{
+.work-list li{
   color: rgb(0, 0, 0);
   margin: 10px 5px;
   padding: 0 12px 0 6px;
@@ -298,7 +297,7 @@ li a {
   color: rgb(255, 255, 255);
 }
 
-.work-list ul{
+.work-list li{
   color: rgb(255, 255, 255);
   padding: 0px 40px;
   display: list-item;
@@ -316,33 +315,52 @@ li a {
   width: fit-content;
 }
 
-.strong-img img{
+.strong-img img {
   border: 2px solid rgb(170, 170, 170);
   box-shadow: 4px 4px rgb(170, 170, 170);
 }
 
-.project-brief{
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  height: auto;
-  justify-content: flex-end;
+.appointment {
   color: rgb(255, 255, 255);
-  margin: 0 auto 50px auto;
+  font-size: 16px;
+  margin:0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.project-name, 
+.job, .methodology, 
+.employer-profile, .title-list{
+  color: rgb(255, 255, 255);
   font-size: 12px;
-  text-align: justify;
-
+  margin: 0;
 }
 
-.project-brief a{
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
+.job a{
+  padding: 10px;
   color: rgb(255, 255, 255);
 }
 
-.project-brief span{
-  text-align: left;
+.job{
+  padding: 0 10px;
+}
+
+.job li {
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.project-name{
+  margin-bottom: 20px;
+}
+
+.box-project {
+  border: 2px solid rgb(255, 255, 255);
+  width: fit-content;
+  padding: 20px;
 }
 
 }
