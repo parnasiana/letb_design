@@ -588,8 +588,18 @@ footer {
     position: relative; 
     margin-bottom: 50px;
     width: 40%;
-    border: 2px solid rgb(255, 255, 255);
-    box-shadow: -6px 6px rgb(255, 255, 255);
+}
+
+.strong-img img{
+    width: 100%;
+    height: auto;
+}
+
+.brief-text{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
 }
 
 }

@@ -1,3 +1,7 @@
+body{
+  font-family: 'Source Code Pro'
+}
+
 .white {
   color: rgb(255, 255, 255);
 }
@@ -24,11 +28,6 @@ li a {
   width: fit-content;
   margin: 30px auto;
   text-align: center;
-}
-
-.title-section-black, .title-section-white, .gallery-title, .animate-approach, .presentation, .profesional-profile, .work-list, .btn-to span,
-.firm, .tip, .msg, .title-section-mix, .title-section-wwhite {
-    font-family: 'Source Code Pro';
 }
 
 .title-section-black, .title-section-white, .title-section-mix, .title-section-wwhite{
@@ -317,5 +316,33 @@ li a {
   width: fit-content;
 }
 
+.strong-img img{
+  border: 2px solid rgb(170, 170, 170);
+  box-shadow: 4px 4px rgb(170, 170, 170);
+}
+
+.project-brief{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  justify-content: flex-end;
+  color: rgb(255, 255, 255);
+  margin: 0 auto 50px auto;
+  font-size: 12px;
+  text-align: justify;
+
+}
+
+.project-brief a{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+.project-brief span{
+  text-align: left;
+}
 
 }
