@@ -1,5 +1,5 @@
 body{
-  font-family: 'Source Code Pro'
+  font-family: 'Source Code Pro' !important;
 }
 
 .white {
@@ -7,7 +7,7 @@ body{
 }
 
 .nav-element {
-  text-decoration: none;
+  text-decoration: none !important;
   display: inline-block;
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -108,7 +108,7 @@ body{
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width:100%;
   height: 4px;
   background: rgb(255, 255, 255);
   content: '';
@@ -255,7 +255,8 @@ body{
 }
 
 .hovereffect h2 {
-  font-size: 40px;
+  font-size: 32;
+  width: 80%;
 }
 
 .design {
@@ -361,6 +362,11 @@ ul {
   border: 2px solid rgb(255, 255, 255);
   width: fit-content;
   padding: 20px;
+  margin-bottom: 30px;
+}
+
+.title-list{
+  font-weight: bold;
 }
 
 }
