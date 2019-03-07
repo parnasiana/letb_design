@@ -585,10 +585,16 @@ footer {
 
 }
 
+.employer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+}
+
 .strong-img{
     position: relative; 
-    margin-bottom: 50px;
-    width: 40%;
+    width: 100%;
 }
 
 .strong-img img{
@@ -609,11 +615,10 @@ footer {
     background-color: black;
     width: 100%;
     height: auto;
-    padding: 20px 0 50px 0;
+    padding-bottom: 50px;
 }
 
 #carouselExampleIndicators{
-    width: 80%;
-    margin: 0 auto;
+    width: 50%;
 }
 }

@@ -337,6 +337,13 @@ body{
   margin: 0;
 }
 
+.employer-profile{
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
 .job a{
   padding: 10px;
   color: rgb(255, 255, 255);
