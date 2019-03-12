@@ -331,6 +331,17 @@ footer {
     flex-direction: column;
 }
 
+.changing-titles{
+    margin-top: 10px;
+}
+
+.changing-titles span{
+    position: absolute;
+    overflow: hidden;
+    animation: animate 10s linear infinite;
+    opacity: 0;
+}
+
 /* responsive */
 @media (min-width:700px){
     .menu-toggle {
@@ -611,12 +622,32 @@ footer {
 
 }
 
-.project-gallery{
-    background-color: black;
+#galleries{
     width: 100%;
-    height: auto;
-    padding-bottom: 50px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
 }
 
+.project-gallery{
+    width: 90%;
+    height: auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    justify-content: space-between;
+
+}
+
+#carouselExampleInterval{
+    width: 40%;
+    margin-right: 10%;
+}
+
+.animate-title-gal{
+    width: 40%;
+}
 
 }

@@ -222,6 +222,20 @@ body{
   text-decoration: none;
 }
 
+.fixed-word {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.changing-titles span{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
 /* responsive */
 @media (min-width:700px){
   .white {
