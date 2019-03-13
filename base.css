@@ -225,15 +225,20 @@ body{
 .fixed-word {
   font-size: 40px;
   color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 30px;
   
 }
 
 .changing-titles span{
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 40px;
-  padding: 0 20px;
+  font-size: 35px;
+  padding: 0 10px;
+  margin-top: 20px;
+  width: fit-content;
   text-transform: uppercase;
+  text-align: end;
 }
 
 /* responsive */

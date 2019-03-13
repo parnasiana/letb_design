@@ -589,9 +589,8 @@ footer {
 .brief-project{
     display: flex;
     flex-direction: row;
-    width: 90%;
-    margin-top: 120px;
-    margin-left: 10%;
+    width: 80%;
+    margin: 120px 10% 20px 10%;
     justify-content: space-between;
 
 }
@@ -599,7 +598,7 @@ footer {
 .employer{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
     justify-content: space-between;
 }
 
@@ -618,8 +617,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-right: 10%;
-
 }
 
 #galleries{
@@ -631,23 +628,25 @@ footer {
 }
 
 .project-gallery{
-    width: 90%;
+    width: 80%;
     height: auto;
     padding-bottom: 50px;
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
     justify-content: space-between;
-
+    margin: 0 10%;
 }
 
 #carouselExampleInterval{
     width: 40%;
-    margin-right: 10%;
 }
 
 .animate-title-gal{
-    width: 40%;
+    width: 45%;
+}
+
+.changing-titles {
+    width: 45%;
 }
 
 }
