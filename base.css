@@ -223,7 +223,7 @@ body{
 }
 
 .fixed-word {
-  font-size: 40px;
+  font-size: 45px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   line-height: 30px;
@@ -393,6 +393,13 @@ ul {
 
 .title-list{
   font-weight: bold;
+}
+
+.title-project-gal{
+  margin-left: 10%;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
 }
 
 }
