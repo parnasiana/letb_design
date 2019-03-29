@@ -628,7 +628,6 @@ footer {
     flex-wrap: wrap;
     width: 80%;
     margin: 0px auto 50px;
-    border: 2px solid rgb(255, 255, 255);
 }
 
 .gallery-project a{
