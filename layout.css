@@ -651,4 +651,12 @@ footer {
     transform: scale(1.1, 1.1);
 }
 
+.video-wrap{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 50px;
+}
+
 }
