@@ -46,7 +46,6 @@ body{
 .gallery-item{
   position:relative;
   width: 80%;
-  margin: auto;
   margin-bottom: 50px;
   border: 2px solid rgb(0, 0, 0);
   box-shadow: -6px 6px rgb(0, 0, 0);
@@ -262,8 +261,7 @@ body{
 
 .gallery-item{
   position:relative;
-  width: 35%;
-  margin-left: 10%;
+  width: 40%;
   margin-bottom: 50px;
   border: 2px solid rgb(0, 0, 0);
   box-shadow: -6px 6px rgb(0, 0, 0);
@@ -400,7 +398,6 @@ ul {
 
 .fa-chevron-square-up{
   font-size: 80px;
-  font-weight: 100;
   color: rgb(255, 255, 255);
   margin: auto;
 }
