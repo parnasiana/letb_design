@@ -218,10 +218,6 @@ body{
   color: rgb(27, 145, 255);
 }
 
-.license-group a{
-  text-decoration: none;
-}
-
 .fixed-word {
   font-size: 45px;
   color: rgb(255, 255, 255);
@@ -400,6 +396,13 @@ ul {
   font-size: 30px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
+}
+
+.fa-chevron-square-up{
+  font-size: 80px;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  margin: auto;
 }
 
 }
