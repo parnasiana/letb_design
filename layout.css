@@ -5,9 +5,12 @@ body {
 
 header{
     padding: 30px 30px;
-    position: relative;
     background: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
 }
+
 
 header::after {
     content:'';
@@ -17,7 +20,7 @@ header::after {
 
 .site-nav{
     top: 100%;
-    right: 0%;;
+    margin-right: 50px;
     position: absolute;
     background: rgb(0, 0, 0);
     height: 0;
