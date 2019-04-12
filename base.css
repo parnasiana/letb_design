@@ -236,6 +236,12 @@ body{
   text-align: end;
 }
 
+.fa-chevron-square-up{
+  font-size: 120px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+}
+
 /* responsive */
 @media (min-width:700px){
   .white {
