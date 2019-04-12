@@ -355,6 +355,7 @@ footer {
     }
 
     .site-nav {
+        margin: 0;
         height: auto;
         position: relative;
         background: transparent;
