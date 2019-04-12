@@ -125,7 +125,7 @@
     animation-delay: 6s;
 }
 
-/* menu responsive */
+
 @media (min-width:700px){
 
 .nav-element::after{

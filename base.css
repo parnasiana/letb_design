@@ -46,7 +46,7 @@ body{
 .gallery-item{
   position:relative;
   width: 80%;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
   border: 2px solid rgb(0, 0, 0);
   box-shadow: -6px 6px rgb(0, 0, 0);
 }

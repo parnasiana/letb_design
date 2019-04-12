@@ -88,15 +88,15 @@ header::after {
     transform: translateY(8px);
 }
 
-.open .hamburguer {
+.active .hamburguer {
     transform: rotate(45deg);
 }
 
-.open .hamburguer::after{
+.active .hamburguer::after{
     opacity: 0;
 }
 
-.open .hamburguer::before{
+.active .hamburguer::before{
     transform: rotate(-90deg);
 }
 
@@ -175,12 +175,8 @@ header::after {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    margin: 120px 0 0 6%;
+    margin: 120px auto;
     align-self: center;    
-}
-
-.gallery-item{
-    margin: 0 6% 50px;
 }
 
 #jazzy-approach{
@@ -340,7 +336,7 @@ footer {
     opacity: 0;
 }
 
-/* responsive */
+
 @media (min-width:700px){
 
     header{

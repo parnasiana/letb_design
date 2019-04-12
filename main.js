@@ -11,6 +11,13 @@ function myFunction2() {
 
 $(document).ready(function(){
 
+  $('.menu-toggle').click(function(){
+    $('.menu-toggle').toggleClass('active');
+  });
+});
+
+$(document).ready(function(){
+
   $('.menu-toggle').on('click',function() {
   
     $('.site-nav').toggleClass('site-nav--open', 500);
