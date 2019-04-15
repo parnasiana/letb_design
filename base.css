@@ -242,6 +242,34 @@ body{
   margin: auto;
 }
 
+.strong-img img {
+  border: 2px solid rgb(170, 170, 170);
+  box-shadow: 4px 4px rgb(170, 170, 170);
+}
+
+.project-name, 
+.job, .methodology, 
+.employer-profile, .title-list{
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  margin: 0;
+}
+
+.employer-profile{
+  margin: 30px 0;
+  text-align: justify;
+  color: rgb(170, 170, 170);
+}
+
+.appointment {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin:0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
 /* responsive */
 @media (min-width:700px){
   .white {
@@ -357,8 +385,6 @@ body{
 }
 
 .employer-profile{
-  color: rgb(255, 255, 255);
-  font-size: 12px;
   margin-bottom: 30px;
   text-align: justify;
 }

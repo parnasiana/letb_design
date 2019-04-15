@@ -10,25 +10,24 @@
 .title-section-white::after, .title-section-black::after{
     content: '';
     display: block;
-    width: 0;
+    width: 100%;
     height: 3px;
     background-color: rgb(0,0,0);
-    transition: width .3s;
+    transition: none;
 }
 
 .title-section-black:hover::after, .title-section-white:hover::after, .title-section-mix:hover::after, 
 .title-section-wwhite:hover::after{
-    width: 100%;
-    transition: width .3s;
+    display: none;
 }
 
 .title-section-mix::after, .title-section-wwhite::after{
     content: '';
     display: block;
-    width: 0;
+    width: auto;
     height:3px;
     background-color: rgb(255,255,255);
-    transition: width .3s;
+    transition: none;
 }
 
 @keyframes animate {
@@ -137,20 +136,26 @@
     transition: width .3s;
 }
 
-.title-section-black::after, .title-section-mix::after{
+.title-section-white::after, .title-section-black::after{
     content: '';
     display: block;
     width: 0;
-    height: 4px;
+    height: 3px;
     background-color: rgb(0,0,0);
     transition: width .3s;
 }
 
-.title-section-white::after, .title-section-wwhite::after{
+.title-section-black:hover::after, .title-section-white:hover::after, .title-section-mix:hover::after, 
+.title-section-wwhite:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.title-section-mix::after, .title-section-wwhite::after{
     content: '';
     display: block;
     width: 0;
-    height: 4px;
+    height:3px;
     background-color: rgb(255,255,255);
     transition: width .3s;
 }
