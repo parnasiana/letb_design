@@ -296,6 +296,15 @@ ul {
   list-style-type: square;
 }
 
+.title-project-gal{
+  margin: 0 10%;
+  width: 80%;
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: left;
+}
+
 
 /* responsive */
 @media (min-width:700px){
