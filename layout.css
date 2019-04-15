@@ -167,11 +167,12 @@ header::after {
 
 .title-section-black, .title-section-white, .title-section-mix, .title-section-wwhite{
     position: absolute;
-    margin-left: 6%;
+    margin: 5% 10%;
 }
 
 .title-section-wwhite{
     display: inline-block;
+    width: 80%;
 
 }
 
