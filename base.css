@@ -274,7 +274,26 @@ body{
   border: 2px solid rgb(255, 255, 255);
   width: 100%;
   padding: 20px;
-  margin: 30px 0;
+  margin: 30px 0 0 0;
+}
+
+.job a{
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.job{
+  padding: 0 10px;
+}
+
+.job li {
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: square;
 }
 
 
