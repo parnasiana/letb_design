@@ -379,6 +379,12 @@ footer {
         height: 40px;
     }
 
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+    }
+
     .square-white {
         width: 500px;
         height: 500px;
@@ -433,11 +439,16 @@ footer {
         align-items: center;
     }
 
-    .title-section-black, .title-section-white, .title-section-mix, .title-section-wwhite{
+    .title-section-black, .title-section-white, .title-section-mix {
         position: absolute;
         margin: 120px 10%;
     }
 
+    .title-section-wwhite{
+        position: absolute;
+        margin: 0 10%;
+    }
+    
     .gallery-wrapper{
         display: flex;
         flex-direction: row;
@@ -591,6 +602,7 @@ footer {
     flex-direction: column;
     left: 10%;
     padding-bottom: 50px;
+    margin-top: 120px;
 }
 
 .brief-project{
