@@ -401,7 +401,7 @@ footer {
     overflow: hidden;
     outline: none;
     height: auto;
-    border: 4px solid rgb(255,255, 255);
+    border: 4px solid rgb(0, 0, 0);
 }
 
 .gallery-project a img {
@@ -437,7 +437,7 @@ footer {
         background: rgb(0, 0, 0);
         position: fixed;
         width: 100%;
-        z-index: 9999999;
+        z-index: 10;
     }
     .menu-toggle {
         display: none;
@@ -742,7 +742,7 @@ footer {
     overflow: hidden;
     outline: none;
     height: auto;
-    border: 4px solid rgb(255,255, 255);
+    border: 4px solid rgb(0, 0, 0);
 }
 
 .gallery-project a img {
