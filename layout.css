@@ -424,9 +424,24 @@ footer {
     margin: 0 auto 50px;
 }
 
-.yt-project{
+.yt-project {
     width: 100%;
     height: 45%;
+}
+
+.video-alone{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto 50px;
+}
+
+
+.alone-video{
+    width:100%;
+    height: 300px;
 }
 
 
@@ -756,7 +771,7 @@ footer {
     transform: scale(1.1, 1.1);
 }
 
-.video-wrap{
+.video-wrap, .video-alone{
     width: 80%;
     height: auto;
     display: flex;
@@ -768,6 +783,11 @@ footer {
 .yt-project{
     width: 45%;
     height: 340px;
+}
+
+.alone-video{
+    width:100%;
+    height: 600px;
 }
 
 }
