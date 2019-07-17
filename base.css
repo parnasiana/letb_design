@@ -306,7 +306,7 @@ ul {
 }
 
 
-/* responsive */
+/* desktop */
 @media (min-width:700px){
   .white {
     color: rgb(255, 255, 255);
