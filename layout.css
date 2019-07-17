@@ -28,7 +28,7 @@ header::after {
 }
 
 .site-nav ul{
-    margin: 80px;
+    margin: 50px 10% 0;
     padding: 0;
     list-style: none;
 }
@@ -53,10 +53,11 @@ header::after {
 }
 
 .site-nav--open {
-    height: 700px;
+    height: auto;
     width: 100%;
-    background: rgba(255, 255, 255, 0.5);
+    background: black;
 }
+
 
 .nav-elements {
     text-align: center;
@@ -479,6 +480,12 @@ footer {
     .site-nav li {
         display: inline-block;
         border: none;
+    }
+
+    .site-nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
 
     .site-nav a:hover,
